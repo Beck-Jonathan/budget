@@ -1,95 +1,362 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AnalysisUIOptions">
-    <option name="ANALYZE_INJECTED_CODE" value="false" />
-  </component>
-  <component name="ArtifactsWorkspaceSettings">
-    <artifacts-to-build>
-      <artifact name="JavaIII_Kirkwood:war exploded" />
-    </artifacts-to-build>
-  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77200cf6-a98d-4f28-a6ba-fc435702524d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/crrg/controllers/Edit_Contributor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/crrg/controllers/Edit_User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/crrg/models/Album_VM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/crrg/models/Contributor_VM.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/crrg/EditContributor.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/crrg/EditUser.jsp" afterDir="false" />
+    <list default="true" id="7ea14876-d66e-441b-a615-a85b431b108a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.azure/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.azure/default/connections.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.azure/profiles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.smarttomcat/JavaIII_Kirkwood/conf/catalina.policy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.smarttomcat/JavaIII_Kirkwood/conf/catalina.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.smarttomcat/JavaIII_Kirkwood/conf/context.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.smarttomcat/JavaIII_Kirkwood/conf/jaspic-providers.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.smarttomcat/JavaIII_Kirkwood/conf/jaspic-providers.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.smarttomcat/JavaIII_Kirkwood/conf/logging.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.smarttomcat/JavaIII_Kirkwood/conf/server.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.smarttomcat/JavaIII_Kirkwood/conf/tomcat-users.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.smarttomcat/JavaIII_Kirkwood/conf/tomcat-users.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.smarttomcat/JavaIII_Kirkwood/conf/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaIII_Kirkwood.eml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaIII_Kirkwood.userlibraries" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/66416316-93c6-4cb1-91b8-47590622afa2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/66416316-93c6-4cb1-91b8-47590622afa2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/crrg/controllers/Add_Picture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/crrg/controllers/Add_Picture.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/crrg/controllers/Add_User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/crrg/controllers/Add_User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/crrg/controllers/All_Album.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/crrg/controllers/All_Album.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/crrg/controllers/All_Contributor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/crrg/controllers/All_Contributor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/crrg/controllers/All_Picture.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/crrg/controllers/All_Picture.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/crrg/controllers/Login_Servlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/crrg/controllers/Login_Servlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/crrg/data/Album_DAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/crrg/data/Album_DAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/crrg/data/Contributor_DAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/crrg/data/Contributor_DAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/crrg/data/Picture_DAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/crrg/data/Picture_DAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/crrg/data/User_DAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/crrg/data/User_DAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/crrg/data_interfaces/iAlbum_DAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/crrg/data_interfaces/iAlbum_DAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/crrg/data_interfaces/iContributor_DAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/crrg/data_interfaces/iContributor_DAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/crrg/data_interfaces/iPicture_DAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/crrg/data_interfaces/iPicture_DAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/crrg/data_interfaces/iUser_DAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/crrg/data_interfaces/iUser_DAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/crrg/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/crrg/models/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/crrg/EditAlbum.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/crrg/EditAlbum.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/crrg/Login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/crrg/Login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/crrg/all-Albums.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/crrg/all-Albums.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/crrg/all-Contributors.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/crrg/all-Contributors.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/crrg/all-Users.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/crrg/all-Users.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/crrg/site_management.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/crrg/site_management.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/API_Test/controller/api_home_controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/API_Test/data/PlayerJSON.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/API_Test/model/Player.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/QuizNotes/Notes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/QuizNotes/q5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/QuizNotes/q6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/QuizNotes/shape.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/crrg/controllers/Activation_Servlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/crrg/controllers/Add_Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/crrg/controllers/Add_Album.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/crrg/controllers/Add_Contributor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/crrg/controllers/Add_Picture.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/crrg/controllers/Add_User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/crrg/controllers/All_Album.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/crrg/controllers/All_Contributor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/crrg/controllers/All_Picture.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/crrg/controllers/All_User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/crrg/controllers/Approval_Servlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/crrg/controllers/Edit_Album.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/crrg/controllers/Edit_Contributor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/crrg/controllers/Edit_Picture.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/crrg/controllers/Edit_Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/crrg/controllers/Edit_User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/crrg/controllers/Login_Servlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/crrg/controllers/Logout_Servlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/crrg/controllers/image_demo_servlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/crrg/controllers/site_management_servlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/crrg/controllers/upload_servlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/crrg/data/Album_DAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/crrg/data/Amazon_DAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/crrg/data/Contributor_DAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/crrg/data/Database.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/crrg/data/Picture_DAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/crrg/data/User_DAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/crrg/data_interfaces/iAlbum_DAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/crrg/data_interfaces/iContributor_DAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/crrg/data_interfaces/iPicture_DAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/crrg/data_interfaces/iUser_DAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/crrg/models/Album.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/crrg/models/Album_VM.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/crrg/models/Contributor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/crrg/models/Contributor_VM.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/crrg/models/Picture.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/crrg/models/Picture_VM.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/crrg/models/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/demos/controllers/ArtistJsonServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/demos/controllers/PostFixServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/demos/data/JsonReader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/demos/email.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/garden/controller/AddGardenServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/garden/controller/AddPlantServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/garden/controller/AllGardensServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/garden/controller/AllPlantsServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/garden/controller/DeleteGardenServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/garden/controller/DeletePlantServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/garden/controller/EditGardenServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/garden/controller/EditPlantServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/garden/controller/garden_home.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/garden/data/Database.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/garden/data/GardenDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/garden/data/PlantDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/garden/model/Garden.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/garden/model/Plant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/learnx/Models/Course.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/learnx/Models/CourseCategory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/learnx/Models/Department.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/learnx/Models/JobApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/learnx/Models/JobListing.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/learnx/Models/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/learnx/controllers/AddApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/learnx/controllers/AddCourseServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/learnx/controllers/AddJobServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/learnx/controllers/AllApplications.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/learnx/controllers/AllJobsServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/learnx/controllers/AllUsersServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/learnx/controllers/ConfirmServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/learnx/controllers/CourseAdminServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/learnx/controllers/CourseServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/learnx/controllers/DeleteAccountServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/learnx/controllers/DeleteCourseServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/learnx/controllers/DeleteUserServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/learnx/controllers/EditCourseServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/learnx/controllers/EditProfile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/learnx/controllers/EditUserServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/learnx/controllers/EnrollmentServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/learnx/controllers/ErrorTestServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/learnx/controllers/GroupChat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/learnx/controllers/GroupChatEndpoint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/learnx/controllers/HomeServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/learnx/controllers/LogInServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/learnx/controllers/LogoutServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/learnx/controllers/NewPassword.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/learnx/controllers/PasswordResetServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/learnx/controllers/PrivacyPolicyServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/learnx/controllers/SignupServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/learnx/controllers/StudentServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/learnx/controllers/TermsServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/learnx/controllers/adminServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/learnx/controllers/dummyservlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/learnx/data/CourseDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/learnx/data/Database.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/learnx/data/JobApplicationDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/learnx/data/JobListingDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/learnx/data/UserDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/learnx/dd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/models/Artist.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/models/ArtistFromJson.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/controllers/AddEventServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/controllers/AddFacilityServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/controllers/AddLanguageServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/controllers/AddLeagueServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/controllers/AddPrivilegeServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/controllers/AddStatusServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/controllers/AddTeamServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/controllers/AddTypeServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/controllers/AllEventServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/controllers/AllFacilitysServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/controllers/AllLanguagesServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/controllers/AllLeagueServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/controllers/AllPrivilegesServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/controllers/AllStatusServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/controllers/AllTeamServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/controllers/AllTwoFAsServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/controllers/AllTypesServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/controllers/AllUserServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/controllers/AllUser_Event_LinesServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/controllers/AllUser_Team_LinesServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/controllers/ApplicationServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/controllers/DeleteEventServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/controllers/DeleteFacilityServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/controllers/DeleteLanguageServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/controllers/DeleteLeagueServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/controllers/DeletePrivilegeServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/controllers/DeleteStatusServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/controllers/DeleteTeamServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/controllers/DeleteTypeServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/controllers/DeleteUser_Event_LineServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/controllers/EditEventServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/controllers/EditFacilityServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/controllers/EditLeagueServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/controllers/EditPrivilegeServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/controllers/EditTeamServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/controllers/EditUser_BioServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/controllers/HomeServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/controllers/HowToPlayServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/controllers/JoinEventServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/controllers/LeagueAdminDashServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/controllers/LoginServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/controllers/ManageUserTeamLineServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/controllers/MyEventsServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/controllers/MyTeamsServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/controllers/ResetPasswordServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/controllers/TeamAdminDashServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/controllers/TwoFaServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/controllers/UserDashServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/controllers/UserSignOutServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/controllers/UserSignUpServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/controllers/addUserservlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/controllers/deleteUserServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/controllers/dummyservlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/controllers/user_change_priv.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/data/Database.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/data/EventDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/data/FacilityDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/data/LanguageDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/data/LeagueDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/data/PasswordResetDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/data/PrivilegeDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/data/StatusDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/data/TeamDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/data/TeamEventLineDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/data/TwoFADAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/data/TypeDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/data/UserBioDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/data/UserDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/data/User_Event_LineDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/data/User_Team_LineDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/models/Event.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/models/EventVM.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/models/Facility.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/models/Language.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/models/League.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/models/Privilege.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/models/Status.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/models/Team.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/models/TeamEventLine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/models/TeamVM.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/models/TwoFA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/models/Type.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/models/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/models/UserBio.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/models/User_Event_Line.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/models/User_Team_Line.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/api_experiment/home.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/crrg/AddAlbum.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/crrg/AddContributor.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/crrg/AddPicture.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/crrg/AddUser.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/crrg/EditAlbum.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/crrg/EditContributor.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/crrg/EditPicture.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/crrg/EditUser.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/crrg/Login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/crrg/all-Albums.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/crrg/all-Contributors.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/crrg/all-Pictures.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/crrg/all-Users.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/crrg/foot.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/crrg/head.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/crrg/images.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/crrg/site_management.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/demos/artist-json.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/demos/email.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/demos/postfix.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/garden/Garden_Add.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/garden/Garden_All.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/garden/Garden_Edit.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/garden/Plant_Add.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/garden/Plant_All.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/garden/Plant_Edit.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/garden/garden_bottom.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/garden/garden_index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/garden/garden_top.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/learnx/2fa-confirm.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/learnx/AddJob.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/learnx/Addcourse.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/learnx/AllApplications.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/learnx/AllJobs.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/learnx/Apply.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/learnx/admin-dashboard.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/learnx/all-Job_Applications.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/learnx/all-courses-admin.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/learnx/all-courses.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/learnx/all-users.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/learnx/bottom.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/learnx/dashboard-header.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/learnx/dashboard-main.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/learnx/dashboard-sidebar.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/learnx/delete-account.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/learnx/edit-course.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/learnx/edit-user.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/learnx/editprofile.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/learnx/footer.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/learnx/group-chat.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/learnx/home.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/learnx/login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/learnx/privacy-policy.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/learnx/reset.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/learnx/resetPassword.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/learnx/signup.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/learnx/slider-01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/learnx/student.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/learnx/terms.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/learnx/top-nav.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/learnx/top.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/personal-project/AddEvent.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/personal-project/AddFacility.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/personal-project/AddLanguage.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/personal-project/AddLeague.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/personal-project/AddPrivilege.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/personal-project/AddStatus.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/personal-project/AddTeam.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/personal-project/AddType.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/personal-project/AddUser.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/personal-project/AddUserEventLine.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/personal-project/AddUserTeamLine.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/personal-project/Apply.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/personal-project/EditEvent.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/personal-project/EditFacility.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/personal-project/EditLeague.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/personal-project/EditPrivilege.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/personal-project/EditTeam.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/personal-project/JoinUs.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/personal-project/LeagueAdminDash.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/personal-project/Login.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/personal-project/MyEvents.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/personal-project/MyTeams.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/personal-project/Personal_home.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/personal-project/TeamAdminDash.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/personal-project/TwoFA.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/personal-project/UserDash.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/personal-project/UserProfile.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/personal-project/all-Events.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/personal-project/all-Facilitys.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/personal-project/all-Language.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/personal-project/all-League.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/personal-project/all-Privileges.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/personal-project/all-Status.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/personal-project/all-Team-Card.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/personal-project/all-Teams.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/personal-project/all-TwoFA.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/personal-project/all-TwoFAs.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/personal-project/all-Type.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/personal-project/all-UserEventLine.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/personal-project/all-UserTeamLine.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/personal-project/all-Users.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/personal-project/delete-account.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/personal-project/howtoplay.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/personal-project/joinEvent.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/personal-project/partialEvents.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/personal-project/partialTeams.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/personal-project/personal_bottom.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/personal-project/personal_top.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/personal-project/reset-password.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/personal-project/user_change_priv.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/crrg/crrg.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/crrg/crrg.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Interface" />
-        <option value="JavaScript File" />
-        <option value="CSS File" />
-        <option value="Class" />
-        <option value="Jsp File" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="JspContextManager">
-    <jsp-to-context jsp-file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/personal-project/personal_top.jsp" context-file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/personal-project/all-Facilitys.jsp" />
-    <jsp-to-context jsp-file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/personal-project/personal_bottom.jsp" context-file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/personal-project/Apply.jsp" />
-    <jsp-to-context jsp-file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/personal-project/Login.jsp" context-file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/personal-project/personal_top.jsp" />
-  </component>
-  <component name="LogFilters">
-    <option name="FILTER_ERRORS" value="false" />
-    <option name="FILTER_WARNINGS" value="false" />
-    <option name="FILTER_INFO" value="true" />
-    <option name="FILTER_DEBUG" value="true" />
-    <option name="CUSTOM_FILTER" />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="Use Maven wrapper" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
-  </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 7
-}</component>
-  <component name="ProjectId" id="2b9Pv7ZgvZ61LNkxvdmbHkW2LUV" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Beck-Jonathan"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Beck-Jonathan/budget.git",
+    "accountId": "c034b4a9-32b8-4d8c-ba6a-f40c167740d1"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2nnYq2fLThtf9DNnZ8tgIGOxZSO" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
@@ -98,112 +365,33 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.Amazon_DAO.executor": "Run",
-    "Application.EmailService.executor": "Run",
-    "Application.JobListingDAO.executor": "Run",
-    "Application.UserDAO.executor": "Run",
-    "Application.scribble.executor": "Run",
-    "Azure Web App.Azure Web App: JavaIII_Kirkwood:JavaIII-Kirkwood.executor": "Run",
-    "JavaIII_Kirkwood.wasFacetEverAdded": "true",
-    "Maven.JavaIII_Kirkwood [package].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Tomcat Server.Tomcat 10.1.11.executor": "Debug",
-    "Tomcat Server.dashboard-main.jsp.executor": "Run",
-    "Tomcat Server.group-chat.jsp.executor": "Run",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "jdk.selected.JAVA_MODULE": "20",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/jjbec/IdeaProjects/JavaIII_Kirkwood/src/main/webapp/js/budget",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
+    "last_opened_file_path": "C:/Users/jjbec/Desktop/java/budget",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.grazie",
     "vue.rearranger.settings.migration": "true"
-  },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "azure",
-      "mysql"
-    ]
   }
 }]]></component>
-  <component name="ReactorSettings">
-    <option name="notificationShown" value="true" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\jjbec\IdeaProjects\JavaIII_Kirkwood\src\main\webapp\js\budget" />
-      <recent name="C:\Users\jjbec\IdeaProjects\JavaIII_Kirkwood\src\main\webapp\Resume" />
-      <recent name="C:\Users\jjbec\IdeaProjects\JavaIII_Kirkwood\src\main\webapp\js" />
-      <recent name="C:\Users\jjbec\IdeaProjects\JavaIII_Kirkwood\src\main\webapp\WEB-INF\personal-project\js\images" />
-      <recent name="C:\Users\jjbec\IdeaProjects\JavaIII_Kirkwood\src\main\webapp\WEB-INF\personal-project\css" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\jjbec\IdeaProjects\JavaIII_Kirkwood\src\main\webapp\images\crrg" />
-      <recent name="C:\Users\jjbec\IdeaProjects\JavaIII_Kirkwood\src\main\webapp\images\crrg\misc" />
-      <recent name="C:\Users\jjbec\IdeaProjects\JavaIII_Kirkwood\src\main\webapp\sample_inputs" />
-      <recent name="C:\Users\jjbec\IdeaProjects\JavaIII_Kirkwood\src\main\webapp\css\budget" />
-      <recent name="C:\Users\jjbec\IdeaProjects\JavaIII_Kirkwood\src\main\webapp\images\icons" />
-    </key>
-    <key name="ExtractSuperBase.RECENT_KEYS">
-      <recent name="com.beck.javaiii_kirkwood.budget_app.iData" />
-    </key>
-  </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 10.1.11">
-    <configuration default="true" type="AZURE_FUNCTION_SUPPORT" factoryName="Run Functions">
-      <option name="appName" />
-      <option name="appServicePlanName" />
-      <option name="appServicePlanResourceGroup" />
-      <option name="appSettingsKey" value="43cd0561-d790-4bad-8eb8-5c47b0cdca46" />
-      <option name="artifact" />
-      <option name="debugOptions" />
-      <option name="deployment" />
-      <option name="deploymentStagingDirectoryPath" />
-      <option name="funcPath" />
-      <option name="functionHostArguments" />
-      <option name="hostJsonPath" />
-      <option name="insightsName" />
-      <option name="instrumentationKey" />
-      <option name="javaVersion" />
-      <option name="localSettingsJsonPath" />
-      <option name="moduleName" />
-      <option name="os" />
-      <option name="pricingTier" />
-      <option name="providerMap">
-        <map />
-      </option>
-      <option name="region" />
-      <option name="resourceGroup" />
-      <option name="stagingFolder" />
-      <option name="subscription" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="header1.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/main/webapp/WEB-INF/personal-project/js/header1.js" working-dir="$PROJECT_DIR$/src/main/webapp/WEB-INF/personal-project/js">
-      <method v="2" />
-    </configuration>
     <configuration name="SpringDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="JavaIII_Kirkwood" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.beck.javaiii_kirkwood.budget_app.SpringDemoApplication" />
+      <extension name="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
+        </ENTRIES>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tomcat 10.1.11" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.11" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
-      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+    <configuration name="Tomcat 10.1.11" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.11" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="JavaIII_Kirkwood:war exploded">
@@ -213,7 +401,7 @@
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="24dc2a6e-c072-4a55-b11d-eaae54f3f0e5" />
+        <option name="BASE_DIRECTORY_NAME" value="b995548e-3078-4e1f-9724-c9916a656e13" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -231,7 +419,7 @@
         </ENTRIES>
       </extension>
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="53361" />
+        <option name="DEBUG_PORT" value="59069" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -298,979 +486,35 @@
         <option name="BuildArtifacts" enabled="true">
           <artifact name="JavaIII_Kirkwood:war exploded" />
         </option>
+        <option name="LaunchBrowser.Before.Run" />
       </method>
     </configuration>
-    <configuration name="Azure Web App: JavaIII_Kirkwood:JavaIII-Kirkwood" type="com.microsoft.intellij.run.configuration.WebAppConfigurationType" factoryName="Azure Web App">
-      <option name="appServicePlanName" value="" />
-      <option name="appServicePlanResourceGroupName" value="" />
-      <option name="appSettingsKey" value="b75d9940-8010-4ea5-aceb-416e8df57c21" />
-      <option name="appSettingsToRemove" />
-      <option name="applicationLogLevel" value="Error" />
-      <option name="artifactIdentifier" value="$PROJECT_DIR$/target/JavaIII_Kirkwood-1.0-SNAPSHOT.war" />
-      <option name="azureArtifactType" value="Artifact" />
-      <option name="config">
-        <AppServiceConfig>
-          <option name="appName" value="JavaIII-Kirkwood" />
-          <option name="appSettingsToRemove">
-            <set />
-          </option>
-          <option name="diagnosticConfig" />
-          <option name="pricingTier">
-            <PricingTier>
-              <option name="size" value="B1" />
-              <option name="tier" value="Basic" />
-            </PricingTier>
-          </option>
-          <option name="region">
-            <Region>
-              <option name="abbreviation" value="EUS" />
-              <option name="label" value="East US" />
-              <option name="name" value="eastus" />
-            </Region>
-          </option>
-          <option name="resourceGroup" value="JavaIII-Kirkwood_group" />
-          <option name="runtime">
-            <RuntimeConfig>
-              <option name="image" />
-              <option name="javaVersion" value="Java 17" />
-              <option name="os" value="Linux" />
-              <option name="registryUrl" />
-              <option name="startUpCommand" />
-              <option name="username" />
-              <option name="webContainer" value="Tomcat 10.0" />
-            </RuntimeConfig>
-          </option>
-          <option name="servicePlanName" value="ASP-javawebapp-8fd5" />
-          <option name="servicePlanResourceGroup" value="java-web-app" />
-          <option name="slotConfig" />
-          <option name="subscriptionId" value="3ccf1b08-1216-4e6d-a8e5-e34304c7c1a8" />
-        </AppServiceConfig>
-      </option>
-      <option name="creatingAppServicePlan" value="false" />
-      <option name="creatingNew" value="false" />
-      <option name="creatingResGrp" value="false" />
-      <option name="deployToRoot" value="true" />
-      <option name="deployToSlot" value="false" />
-      <option name="enableApplicationLog" value="false" />
-      <option name="enableDetailedErrorMessage" value="false" />
-      <option name="enableFailedRequestTracing" value="false" />
-      <option name="enableWebServerLogging" value="false" />
-      <option name="newSlotConfigurationSource" />
-      <option name="newSlotName" />
-      <option name="openBrowserAfterDeployment" value="true" />
-      <option name="operatingSystem" />
-      <option name="packaging" value="war" />
-      <option name="pricing" value="" />
-      <option name="projectBase" value="" />
-      <option name="projectType" value="" />
-      <option name="region" value="" />
-      <option name="resourceGroup" value="" />
-      <option name="slotName" />
-      <option name="slotPanelVisible" value="false" />
-      <option name="subscriptionId" value="" />
-      <option name="targetName" value="" />
-      <option name="targetPath" value="" />
-      <option name="webAppContainer" />
-      <option name="webAppId" value="" />
-      <option name="webAppJavaVersion" />
-      <option name="webAppName" value="" />
-      <option name="webServerLogQuota" value="35" />
-      <option name="webServerRetentionPeriod" />
-      <method v="2">
-        <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/../JavaIII_Kirkwood\pom.xml" goal="package" />
-      </method>
-    </configuration>
-    <configuration default="true" type="com.microsoft.intellij.run.configuration.WebAppConfigurationType" factoryName="Azure Web App">
-      <option name="appServicePlanName" value="" />
-      <option name="appServicePlanResourceGroupName" value="" />
-      <option name="appSettingsKey" value="c10aa1cd-65c9-4827-aebf-3900906a684f" />
-      <option name="appSettingsToRemove" />
-      <option name="applicationLogLevel" value="Error" />
-      <option name="artifactIdentifier" />
-      <option name="azureArtifactType" />
-      <option name="config">
-        <AppServiceConfig>
-          <option name="appName" />
-          <option name="appSettingsToRemove" />
-          <option name="diagnosticConfig" />
-          <option name="pricingTier" />
-          <option name="region" />
-          <option name="resourceGroup" />
-          <option name="runtime" />
-          <option name="servicePlanName" />
-          <option name="servicePlanResourceGroup" />
-          <option name="slotConfig" />
-          <option name="subscriptionId" />
-        </AppServiceConfig>
-      </option>
-      <option name="creatingAppServicePlan" value="false" />
-      <option name="creatingNew" value="false" />
-      <option name="creatingResGrp" value="false" />
-      <option name="deployToRoot" value="true" />
-      <option name="deployToSlot" value="false" />
-      <option name="enableApplicationLog" value="false" />
-      <option name="enableDetailedErrorMessage" value="false" />
-      <option name="enableFailedRequestTracing" value="false" />
-      <option name="enableWebServerLogging" value="false" />
-      <option name="newSlotConfigurationSource" />
-      <option name="newSlotName" />
-      <option name="openBrowserAfterDeployment" value="true" />
-      <option name="operatingSystem" />
-      <option name="packaging" />
-      <option name="pricing" value="" />
-      <option name="projectBase" value="" />
-      <option name="projectType" value="" />
-      <option name="region" value="" />
-      <option name="resourceGroup" value="" />
-      <option name="slotName" />
-      <option name="slotPanelVisible" value="false" />
-      <option name="subscriptionId" value="" />
-      <option name="targetName" value="" />
-      <option name="targetPath" value="" />
-      <option name="webAppContainer" />
-      <option name="webAppId" value="" />
-      <option name="webAppJavaVersion" />
-      <option name="webAppName" value="" />
-      <option name="webServerLogQuota" value="35" />
-      <option name="webServerRetentionPeriod" />
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Node.js.header1.js" />
-      </list>
-    </recent_temporary>
+    <list>
+      <item itemvalue="Spring Boot.SpringDemoApplication" />
+      <item itemvalue="Tomcat Server.Tomcat 10.1.11" />
+    </list>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-18.0.2-corretto-18.0.2-f644763e9732-da6bd485" />
-        <option value="jdk-20.0.2-azul-20.0.2-4caba194b151-eb49e076" />
+        <option value="bundled-jdk-9823dce3aa75-09743e0e1e3c-intellij.indexing.shared.core-IU-243.20847.40" />
+        <option value="bundled-js-predefined-d6986cc7102b-bed05e336f61-JavaScript-IU-243.20847.40" />
       </set>
     </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="77200cf6-a98d-4f28-a6ba-fc435702524d" name="Changes" comment="" />
-      <created>1705624549060</created>
+      <changelist id="7ea14876-d66e-441b-a615-a85b431b108a" name="Changes" comment="" />
+      <created>1729610493277</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1705624549060</updated>
-      <workItem from="1705624550054" duration="382000" />
-      <workItem from="1705624969189" duration="6723000" />
-      <workItem from="1705950404328" duration="29000" />
-      <workItem from="1706226222956" duration="3656000" />
-      <workItem from="1706229904097" duration="11135000" />
-      <workItem from="1706291479022" duration="1672000" />
-      <workItem from="1706480802085" duration="934000" />
-      <workItem from="1706560322097" duration="3133000" />
-      <workItem from="1706825137461" duration="1155000" />
-      <workItem from="1706831217043" duration="3890000" />
-      <workItem from="1706836657651" duration="454000" />
-      <workItem from="1706837131064" duration="6865000" />
-      <workItem from="1706902432421" duration="2526000" />
-      <workItem from="1707102894913" duration="3000" />
-      <workItem from="1707436112458" duration="1562000" />
-      <workItem from="1707437701581" duration="10456000" />
-      <workItem from="1707499513760" duration="3922000" />
-      <workItem from="1707681011580" duration="3000" />
-      <workItem from="1707764413103" duration="601000" />
-      <workItem from="1707875750415" duration="1205000" />
-      <workItem from="1707942827220" duration="2576000" />
-      <workItem from="1707945428102" duration="781000" />
-      <workItem from="1707946409262" duration="67000" />
-      <workItem from="1707946497917" duration="2183000" />
-      <workItem from="1707949400298" duration="510000" />
-      <workItem from="1707949913848" duration="906000" />
-      <workItem from="1708018277175" duration="301000" />
-      <workItem from="1708019341927" duration="624000" />
-      <workItem from="1708019985799" duration="2062000" />
-      <workItem from="1708022781787" duration="978000" />
-      <workItem from="1708041776585" duration="10030000" />
-      <workItem from="1708051876765" duration="2389000" />
-      <workItem from="1708104755283" duration="1678000" />
-      <workItem from="1708631658026" duration="326000" />
-      <workItem from="1708632004156" duration="1028000" />
-      <workItem from="1708640823726" duration="602000" />
-      <workItem from="1708644319431" duration="1522000" />
-      <workItem from="1708651516732" duration="7515000" />
-      <workItem from="1708714977256" duration="15680000" />
-      <workItem from="1708824222154" duration="12405000" />
-      <workItem from="1708906605265" duration="7641000" />
-      <workItem from="1709072926752" duration="598000" />
-      <workItem from="1709147804687" duration="5450000" />
-      <workItem from="1709157855652" duration="105000" />
-      <workItem from="1709157984834" duration="210000" />
-      <workItem from="1709159722962" duration="291000" />
-      <workItem from="1709250535557" duration="11655000" />
-      <workItem from="1709484285157" duration="12917000" />
-      <workItem from="1709589210255" duration="10000" />
-      <workItem from="1709669262145" duration="963000" />
-      <workItem from="1709677166487" duration="720000" />
-      <workItem from="1709681064261" duration="4000" />
-      <workItem from="1709761219916" duration="10000" />
-      <workItem from="1709839351841" duration="1392000" />
-      <workItem from="1709854715775" duration="9735000" />
-      <workItem from="1710093486940" duration="21620000" />
-      <workItem from="1710355583399" duration="21776000" />
-      <workItem from="1710708112497" duration="14783000" />
-      <workItem from="1710877056839" duration="3845000" />
-      <workItem from="1710881990560" duration="601000" />
-      <workItem from="1710969149700" duration="36000" />
-      <workItem from="1711061328602" duration="11243000" />
-      <workItem from="1711130314883" duration="9937000" />
-      <workItem from="1711152795971" duration="119000" />
-      <workItem from="1711201183073" duration="1325000" />
-      <workItem from="1711217922488" duration="3101000" />
-      <workItem from="1711397789798" duration="110000" />
-      <workItem from="1711479937747" duration="1663000" />
-      <workItem from="1711482093469" duration="630000" />
-      <workItem from="1711482896681" duration="3346000" />
-      <workItem from="1711645169937" duration="2465000" />
-      <workItem from="1711665515933" duration="12182000" />
-      <workItem from="1711729433495" duration="4175000" />
-      <workItem from="1712004679040" duration="20000" />
-      <workItem from="1712089190945" duration="2846000" />
-      <workItem from="1712110064612" duration="747000" />
-      <workItem from="1712173339351" duration="619000" />
-      <workItem from="1712266419386" duration="603000" />
-      <workItem from="1712270853670" duration="11716000" />
-      <workItem from="1712339234570" duration="2896000" />
-      <workItem from="1712346810796" duration="542000" />
-      <workItem from="1712411089229" duration="4659000" />
-      <workItem from="1712416614575" duration="28296000" />
-      <workItem from="1712859164052" duration="3699000" />
-      <workItem from="1712867691875" duration="3288000" />
-      <workItem from="1712877759914" duration="9816000" />
-      <workItem from="1713013304083" duration="1947000" />
-      <workItem from="1713047977053" duration="6581000" />
-      <workItem from="1713293055937" duration="1872000" />
-      <workItem from="1713311138624" duration="601000" />
-      <workItem from="1713405291925" duration="10000" />
-      <workItem from="1713482217125" duration="11458000" />
-      <workItem from="1713622291706" duration="21000" />
-      <workItem from="1713627478129" duration="602000" />
-      <workItem from="1713638415196" duration="601000" />
-      <workItem from="1713997530661" duration="8000" />
-      <workItem from="1714070101282" duration="1162000" />
-      <workItem from="1714074863856" duration="600000" />
-      <workItem from="1714085425488" duration="12817000" />
-      <workItem from="1714147875229" duration="14721000" />
-      <workItem from="1714223795477" duration="41000" />
-      <workItem from="1714318035468" duration="1379000" />
-      <workItem from="1714415951020" duration="2648000" />
-      <workItem from="1714589465400" duration="2728000" />
-      <workItem from="1714689853750" duration="9624000" />
-      <workItem from="1714829416914" duration="48903000" />
-      <workItem from="1715018777009" duration="2874000" />
-      <workItem from="1715022993476" duration="604000" />
-      <workItem from="1715111474047" duration="705000" />
-      <workItem from="1715797787767" duration="601000" />
-      <workItem from="1715969312860" duration="103696000" />
-      <workItem from="1716487494350" duration="23000" />
-      <workItem from="1716487546197" duration="5079000" />
-      <workItem from="1721660041592" duration="772000" />
-      <workItem from="1721666441406" duration="27090000" />
-      <workItem from="1722003856395" duration="12299000" />
-      <workItem from="1722350377168" duration="262000" />
-      <workItem from="1722350658161" duration="89080000" />
-      <workItem from="1722946465631" duration="15977000" />
-      <workItem from="1723392159669" duration="7300000" />
-      <workItem from="1724374645338" duration="478000" />
-      <workItem from="1724426772797" duration="23000" />
-      <workItem from="1724429309969" duration="54000" />
-      <workItem from="1724438038594" duration="17000" />
-      <workItem from="1724596802750" duration="7974000" />
-      <workItem from="1724721985822" duration="20772000" />
-      <workItem from="1725895645738" duration="4064000" />
-      <workItem from="1725904231680" duration="1956000" />
-      <workItem from="1725911278110" duration="322000" />
-      <workItem from="1726071645506" duration="9924000" />
-      <workItem from="1726163139702" duration="5019000" />
-      <workItem from="1726238200403" duration="15553000" />
-      <workItem from="1727103043941" duration="14231000" />
-      <workItem from="1727465283896" duration="1272000" />
-      <workItem from="1727972532783" duration="10975000" />
-      <workItem from="1728232015996" duration="41865000" />
-      <workItem from="1728485465104" duration="45762000" />
-      <workItem from="1728850224610" duration="47672000" />
+      <updated>1729610493277</updated>
+      <workItem from="1729610494283" duration="141000" />
     </task>
-    <task id="LOCAL-00039" summary="Day 23 quiz">
-      <option name="closed" value="true" />
-      <created>1713489054489</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1713489054489</updated>
-    </task>
-    <task id="LOCAL-00040" summary="Translation work and assignment">
-      <option name="closed" value="true" />
-      <created>1713493604957</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1713493604957</updated>
-    </task>
-    <task id="LOCAL-00041" summary="Translation work and assignment">
-      <option name="closed" value="true" />
-      <created>1713493644861</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1713493644861</updated>
-    </task>
-    <task id="LOCAL-00042" summary="Helpers.noErrors method as part of the &quot;keep code DRY assignment&quot;">
-      <option name="closed" value="true" />
-      <created>1714070662859</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1714070662859</updated>
-    </task>
-    <task id="LOCAL-00043" summary="Day24 quiz">
-      <option name="closed" value="true" />
-      <created>1714086803678</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1714086803679</updated>
-    </task>
-    <task id="LOCAL-00044" summary="Day24 quiz">
-      <option name="closed" value="true" />
-      <created>1714086910091</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1714086910091</updated>
-    </task>
-    <task id="LOCAL-00045" summary="Day24 Quiz">
-      <option name="closed" value="true" />
-      <created>1714086945006</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1714086945006</updated>
-    </task>
-    <task id="LOCAL-00046" summary="Chatbox demo.">
-      <option name="closed" value="true" />
-      <created>1714096979603</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1714096979603</updated>
-    </task>
-    <task id="LOCAL-00047" summary="Assignment 11">
-      <option name="closed" value="true" />
-      <created>1714098696576</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1714098696576</updated>
-    </task>
-    <task id="LOCAL-00048" summary="Assignment 12 (extra credit)">
-      <option name="closed" value="true" />
-      <created>1714180252337</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1714180252337</updated>
-    </task>
-    <task id="LOCAL-00049" summary="Day 24 quiz fix">
-      <option name="closed" value="true" />
-      <created>1714318497724</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1714318497724</updated>
-    </task>
-    <task id="LOCAL-00050" summary="Assignment 10 fix - Added French translation.">
-      <option name="closed" value="true" />
-      <created>1714318813683</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1714318813684</updated>
-    </task>
-    <task id="LOCAL-00051" summary="Assignment 10 fix - Added French translation.">
-      <option name="closed" value="true" />
-      <created>1714416471475</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1714416471475</updated>
-    </task>
-    <task id="LOCAL-00052" summary="Final">
-      <option name="closed" value="true" />
-      <created>1714698583543</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1714698583544</updated>
-    </task>
-    <task id="LOCAL-00053" summary="Final">
-      <option name="closed" value="true" />
-      <created>1714699051923</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1714699051923</updated>
-    </task>
-    <task id="LOCAL-00054" summary="Final">
-      <option name="closed" value="true" />
-      <created>1714699160422</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1714699160422</updated>
-    </task>
-    <task id="LOCAL-00055" summary="parsing error">
-      <option name="closed" value="true" />
-      <created>1714829443338</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1714829443339</updated>
-    </task>
-    <task id="LOCAL-00056" summary="Final Project Updates">
-      <option name="closed" value="true" />
-      <created>1714836368915</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1714836368915</updated>
-    </task>
-    <task id="LOCAL-00057" summary="Final Project Updates">
-      <option name="closed" value="true" />
-      <created>1714924580524</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1714924580525</updated>
-    </task>
-    <task id="LOCAL-00058" summary="Password reset system">
-      <option name="closed" value="true" />
-      <created>1714961094431</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1714961094431</updated>
-    </task>
-    <task id="LOCAL-00059" summary="Password reset system">
-      <option name="closed" value="true" />
-      <created>1714963176920</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1714963176920</updated>
-    </task>
-    <task id="LOCAL-00060" summary="static page content">
-      <option name="closed" value="true" />
-      <created>1715020897743</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1715020897744</updated>
-    </task>
-    <task id="LOCAL-00061" summary="homepage fix">
-      <option name="closed" value="true" />
-      <created>1715021584967</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1715021584967</updated>
-    </task>
-    <task id="LOCAL-00062" summary="homepage updates">
-      <option name="closed" value="true" />
-      <created>1715971985896</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1715971985897</updated>
-    </task>
-    <task id="LOCAL-00063" summary="Beginning work for budget project.">
-      <option name="closed" value="true" />
-      <created>1722008943559</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1722008943560</updated>
-    </task>
-    <task id="LOCAL-00064" summary="Continued work on budget project">
-      <option name="closed" value="true" />
-      <created>1722368216150</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1722368216151</updated>
-    </task>
-    <task id="LOCAL-00065" summary="Continued work on budget project">
-      <option name="closed" value="true" />
-      <created>1722463363404</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1722463363404</updated>
-    </task>
-    <task id="LOCAL-00066" summary="Continued work on budget project">
-      <option name="closed" value="true" />
-      <created>1722544925139</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1722544925140</updated>
-    </task>
-    <task id="LOCAL-00067" summary="Continued work on budget project">
-      <option name="closed" value="true" />
-      <created>1722550324388</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1722550324388</updated>
-    </task>
-    <task id="LOCAL-00068" summary="Amortization doodles">
-      <option name="closed" value="true" />
-      <created>1723146809429</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1723146809430</updated>
-    </task>
-    <task id="LOCAL-00069" summary="Index Touch Ups">
-      <option name="closed" value="true" />
-      <created>1724723864853</created>
-      <option name="number" value="00069" />
-      <option name="presentableId" value="LOCAL-00069" />
-      <option name="project" value="LOCAL" />
-      <updated>1724723864854</updated>
-    </task>
-    <task id="LOCAL-00070" summary="API touch ups">
-      <option name="closed" value="true" />
-      <created>1724770042699</created>
-      <option name="number" value="00070" />
-      <option name="presentableId" value="LOCAL-00070" />
-      <option name="project" value="LOCAL" />
-      <updated>1724770042699</updated>
-    </task>
-    <task id="LOCAL-00071" summary="Updates to homepage">
-      <option name="closed" value="true" />
-      <created>1725047958538</created>
-      <option name="number" value="00071" />
-      <option name="presentableId" value="LOCAL-00071" />
-      <option name="project" value="LOCAL" />
-      <updated>1725047958538</updated>
-    </task>
-    <task id="LOCAL-00072" summary="buuilding an api">
-      <option name="closed" value="true" />
-      <created>1726080882529</created>
-      <option name="number" value="00072" />
-      <option name="presentableId" value="LOCAL-00072" />
-      <option name="project" value="LOCAL" />
-      <updated>1726080882530</updated>
-    </task>
-    <task id="LOCAL-00073" summary="Updated implementation of budget breakdown">
-      <option name="closed" value="true" />
-      <created>1726583053777</created>
-      <option name="number" value="00073" />
-      <option name="presentableId" value="LOCAL-00073" />
-      <option name="project" value="LOCAL" />
-      <updated>1726583053778</updated>
-    </task>
-    <task id="LOCAL-00074" summary="JS update to for budget breakdown to work on multiple deployment locations.">
-      <option name="closed" value="true" />
-      <created>1726584974234</created>
-      <option name="number" value="00074" />
-      <option name="presentableId" value="LOCAL-00074" />
-      <option name="project" value="LOCAL" />
-      <updated>1726584974234</updated>
-    </task>
-    <task id="LOCAL-00075" summary="Extracted CategoryDAO to an interface.">
-      <option name="closed" value="true" />
-      <created>1727104098722</created>
-      <option name="number" value="00075" />
-      <option name="presentableId" value="LOCAL-00075" />
-      <option name="project" value="LOCAL" />
-      <updated>1727104098723</updated>
-    </task>
-    <task id="LOCAL-00076" summary="Extracted CategoryDAO to an interface.">
-      <option name="closed" value="true" />
-      <created>1727104344126</created>
-      <option name="number" value="00076" />
-      <option name="presentableId" value="LOCAL-00076" />
-      <option name="project" value="LOCAL" />
-      <updated>1727104344126</updated>
-    </task>
-    <task id="LOCAL-00077" summary="Extracted mortgageDAO to an interface.">
-      <option name="closed" value="true" />
-      <created>1727104675273</created>
-      <option name="number" value="00077" />
-      <option name="presentableId" value="LOCAL-00077" />
-      <option name="project" value="LOCAL" />
-      <updated>1727104675273</updated>
-    </task>
-    <task id="LOCAL-00078" summary="Extracted transactionDAO to an interface.">
-      <option name="closed" value="true" />
-      <created>1727105811835</created>
-      <option name="number" value="00078" />
-      <option name="presentableId" value="LOCAL-00078" />
-      <option name="project" value="LOCAL" />
-      <updated>1727105811835</updated>
-    </task>
-    <task id="LOCAL-00079" summary="Extracted userDAO to an interface.">
-      <option name="closed" value="true" />
-      <created>1727106259996</created>
-      <option name="number" value="00079" />
-      <option name="presentableId" value="LOCAL-00079" />
-      <option name="project" value="LOCAL" />
-      <updated>1727106259996</updated>
-    </task>
-    <task id="LOCAL-00080" summary="Extracted userDAO to an interface.">
-      <option name="closed" value="true" />
-      <created>1727118765781</created>
-      <option name="number" value="00080" />
-      <option name="presentableId" value="LOCAL-00080" />
-      <option name="project" value="LOCAL" />
-      <updated>1727118765781</updated>
-    </task>
-    <task id="LOCAL-00081" summary="updates to code cleanup standards">
-      <option name="closed" value="true" />
-      <created>1727465870346</created>
-      <option name="number" value="00081" />
-      <option name="presentableId" value="LOCAL-00081" />
-      <option name="project" value="LOCAL" />
-      <updated>1727465870347</updated>
-    </task>
-    <task id="LOCAL-00082" summary="homepage ui updates">
-      <option name="closed" value="true" />
-      <created>1727984060215</created>
-      <option name="number" value="00082" />
-      <option name="presentableId" value="LOCAL-00082" />
-      <option name="project" value="LOCAL" />
-      <updated>1727984060216</updated>
-    </task>
-    <task id="LOCAL-00083" summary="homepage ui updates">
-      <option name="closed" value="true" />
-      <created>1728051485196</created>
-      <option name="number" value="00083" />
-      <option name="presentableId" value="LOCAL-00083" />
-      <option name="project" value="LOCAL" />
-      <updated>1728051485196</updated>
-    </task>
-    <task id="LOCAL-00084" summary="homepage ui updates">
-      <option name="closed" value="true" />
-      <created>1728053961027</created>
-      <option name="number" value="00084" />
-      <option name="presentableId" value="LOCAL-00084" />
-      <option name="project" value="LOCAL" />
-      <updated>1728053961027</updated>
-    </task>
-    <task id="LOCAL-00085" summary="DAO and IDAO for start of CRRG Image hosting project">
-      <option name="closed" value="true" />
-      <created>1728489582627</created>
-      <option name="number" value="00085" />
-      <option name="presentableId" value="LOCAL-00085" />
-      <option name="project" value="LOCAL" />
-      <updated>1728489582627</updated>
-    </task>
-    <task id="LOCAL-00086" summary="Code cleanup, activate and approve picture and album, iUserDAO">
-      <option name="closed" value="true" />
-      <created>1728922194133</created>
-      <option name="number" value="00086" />
-      <option name="presentableId" value="LOCAL-00086" />
-      <option name="project" value="LOCAL" />
-      <updated>1728922194134</updated>
-    </task>
-    <task id="LOCAL-00087" summary="Login system">
-      <option name="closed" value="true" />
-      <created>1729174400113</created>
-      <option name="number" value="00087" />
-      <option name="presentableId" value="LOCAL-00087" />
-      <option name="project" value="LOCAL" />
-      <updated>1729174400113</updated>
-    </task>
-    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="UnknownFeatures">
-    <option featureType="dependencySupport" implementationName="java:com.google.protobuf:protobuf-java" />
-    <option featureType="dependencySupport" implementationName="java:io.projectreactor:reactor-core" />
-    <option featureType="dependencySupport" implementationName="executable:az" />
-    <option featureType="dependencySupport" implementationName="maven-packaging:war" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Final Project Updates" />
-    <MESSAGE value="Password reset system" />
-    <MESSAGE value="static page content" />
-    <MESSAGE value="homepage fix" />
-    <MESSAGE value="homepage updates" />
-    <MESSAGE value="Beginning work for budget project." />
-    <MESSAGE value="Continued work on budget project" />
-    <MESSAGE value="Amortization doodles" />
-    <MESSAGE value="Index Touch Ups" />
-    <MESSAGE value="API touch ups" />
-    <MESSAGE value="Updates to homepage" />
-    <MESSAGE value="buuilding an api" />
-    <MESSAGE value="Updated implementation of budget breakdown" />
-    <MESSAGE value="JS update to for budget breakdown to work on multiple deployment locations." />
-    <MESSAGE value="Extracted CategoryDAO to an interface." />
-    <MESSAGE value="Extracted mortgageDAO to an interface." />
-    <MESSAGE value="Extracted transactionDAO to an interface." />
-    <MESSAGE value="Extracted userDAO to an interface." />
-    <MESSAGE value="updated Intellij code cleanup practices" />
-    <MESSAGE value="." />
-    <MESSAGE value="updates to code cleanup standards" />
-    <MESSAGE value="homepage ui updates" />
-    <MESSAGE value="DAO and IDAO for start of CRRG Image hosting project" />
-    <MESSAGE value="Code cleanup, activate and approve picture and album, iUserDAO" />
-    <MESSAGE value="Login system" />
-    <option name="LAST_COMMIT_MESSAGE" value="Login system" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/controllers/addUserservlet.java</url>
-          <line>2</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/controllers/addUserservlet.java</url>
-          <line>39</line>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/controllers/addUserservlet.java</url>
-          <line>57</line>
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/controllers/EditPrivilegeServlet.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="43" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/controllers/DeleteTypeServlet.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="44" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/demos/controllers/PostFixServlet.java</url>
-          <line>30</line>
-          <option name="timeStamp" value="46" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/demos/controllers/PostFixServlet.java</url>
-          <line>79</line>
-          <option name="timeStamp" value="47" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/controllers/AddTeamServlet.java</url>
-          <line>86</line>
-          <option name="timeStamp" value="63" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/data/EventDAO.java</url>
-          <line>159</line>
-          <option name="timeStamp" value="67" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/controllers/EditLeagueServlet.java</url>
-          <line>79</line>
-          <option name="timeStamp" value="69" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/controllers/EditTeamServlet.java</url>
-          <line>106</line>
-          <option name="timeStamp" value="72" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/learnx/controllers/EditProfile.java</url>
-          <line>68</line>
-          <option name="timeStamp" value="86" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/learnx/controllers/AddCourseServlet.java</url>
-          <line>72</line>
-          <option name="timeStamp" value="95" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/learnx/controllers/DeleteUserServlet.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="98" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/learnx/controllers/DeleteUserServlet.java</url>
-          <line>39</line>
-          <option name="timeStamp" value="99" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/learnx/controllers/AddApplication.java</url>
-          <line>72</line>
-          <option name="timeStamp" value="100" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/learnx/data/JobApplicationDAO.java</url>
-          <line>62</line>
-          <option name="timeStamp" value="105" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/learnx/controllers/AddApplication.java</url>
-          <line>149</line>
-          <option name="timeStamp" value="107" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/controllers/EditFacilityServlet.java</url>
-          <line>122</line>
-          <option name="timeStamp" value="108" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/controllers/EditTeamServlet.java</url>
-          <line>65</line>
-          <option name="timeStamp" value="116" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/data/UserBioDAO.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="123" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/controllers/EditUser_BioServlet.java</url>
-          <line>147</line>
-          <option name="timeStamp" value="126" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/controllers/EditUser_BioServlet.java</url>
-          <line>144</line>
-          <option name="timeStamp" value="127" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/controllers/deleteUserServlet.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="128" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/controllers/deleteUserServlet.java</url>
-          <line>50</line>
-          <option name="timeStamp" value="129" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/data/UserDAO.java</url>
-          <line>380</line>
-          <option name="timeStamp" value="131" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/controllers/ResetPasswordServlet.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="138" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/controllers/ResetPasswordServlet.java</url>
-          <line>64</line>
-          <option name="timeStamp" value="139" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/personal_project/controllers/ResetPasswordServlet.java</url>
-          <line>45</line>
-          <option name="timeStamp" value="140" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/budget_app/data/Database.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="153" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/budget_app/controllers/UserSignInServlet.java</url>
-          <line>76</line>
-          <option name="timeStamp" value="159" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/budget_app/controllers/DeleteCategoryServlet.java</url>
-          <line>48</line>
-          <option name="timeStamp" value="217" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/budget_app/controllers/CalculateMortgageServlet.java</url>
-          <line>117</line>
-          <option name="timeStamp" value="250" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/crrg/controllers/upload_servlet.java</url>
-          <line>62</line>
-          <option name="timeStamp" value="271" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/shared/ErrorHandler.java</url>
-          <line>32</line>
-          <option name="timeStamp" value="275" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/crrg/controllers/Add_Album.java</url>
-          <line>54</line>
-          <option name="timeStamp" value="276" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/crrg/controllers/Edit_Album.java</url>
-          <line>67</line>
-          <option name="timeStamp" value="278" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/crrg/controllers/Edit_Picture.java</url>
-          <line>165</line>
-          <option name="timeStamp" value="283" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/crrg/controllers/Add_Picture.java</url>
-          <line>156</line>
-          <option name="timeStamp" value="296" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/crrg/controllers/Add_Picture.java</url>
-          <line>120</line>
-          <option name="timeStamp" value="297" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/crrg/controllers/Add_Picture.java</url>
-          <line>137</line>
-          <option name="timeStamp" value="299" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/crrg/data/Picture_DAO.java</url>
-          <line>101</line>
-          <option name="timeStamp" value="321" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/beck/javaiii_kirkwood/crrg/controllers/Edit_User.java</url>
-          <line>73</line>
-          <option name="timeStamp" value="331" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-    <pin-to-top-manager>
-      <pinned-members>
-        <PinnedItemInfo parentTag="jdk.internal.net.http.HttpResponseImpl" memberName="sslSession" />
-        <PinnedItemInfo parentTag="com.mysql.cj.result.Field" memberName="databaseName" />
-        <PinnedItemInfo parentTag="com.mysql.cj.jdbc.result.ResultSetImpl" memberName="invalidRowReason" />
-      </pinned-members>
-    </pin-to-top-manager>
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
   </component>
 </project>

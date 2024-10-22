@@ -1,6 +1,6 @@
 package com.beck.javaiii_kirkwood.shared;
 
-import com.beck.javaiii_kirkwood.learnx.Models.User;
+
 import jakarta.servlet.http.HttpSession;
 
 import java.time.LocalDate;
@@ -27,27 +27,6 @@ public class Helpers {
     return Period.between(birthDate, LocalDate.now()).getYears();
   }
 
-  public static User getUserFromSession(HttpSession session){
-    User user = (User)session.getAttribute("activeUser");
-    return user;
-
-  }
-
-  public static Boolean isActive(User user){
-    return user.getStatus().equals("active");
-  }
-
-  public static Boolean isStudent(User user){
-    return user.getPrivileges().equals("student");
-  }
-
-  public static Boolean isTeacher(User user){
-    return user.getPrivileges().equals("teach");
-  }
-
-  public static Boolean isAdmin(User user){
-    return user.getPrivileges().equals("admin");
-  }
 
   public static Boolean noErrors(HashMap results, List<String> potentialErrors){
     Boolean result = true;

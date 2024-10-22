@@ -34,11 +34,7 @@ body {
 
 #img01{    background-color: transparent;}
 
-@property --angle {
-    syntax:"<angle>";
-    initial-value: 0deg;
-    inherits: false;
-}
+
 
 
 
